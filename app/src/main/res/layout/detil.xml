@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+
+	>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="#ff3660"
+		android:gravity="center"
+		android:text="商品详情"
+		android:textColor="#ffffff"
+		android:textSize="25sp" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="251dp"
+		android:orientation="vertical"
+		android:background="@drawable/img_1"></LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textView6"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_weight="1"
+			android:text="名字" />
+		<TextView
+			android:id="@+id/tvBargainPrice"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_weight="1"
+			android:text="原价：1000" />
+
+		<TextView
+			android:id="@+id/tvPrice"
+			android:layout_width="wrap_content"
+			android:layout_height="8dp"
+			android:layout_weight="1"
+			android:text="优惠价:" />
+
+		<TextView
+			android:id="@+id/Price"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:text="700" />
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1">
+
+			<Button
+				android:id="@+id/tvCart"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="#33000000"
+				android:gravity="center"
+				android:text="购物车"
+				android:onClick="onClick"
+				/>
+
+			<Button
+				android:id="@+id/tvAddCart"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="#33000000"
+				android:gravity="center"
+				android:text="加入购物车"
+				android:onClick="onClick"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

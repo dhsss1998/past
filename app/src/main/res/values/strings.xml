@@ -1,0 +1,29 @@
+<resources>
+	<string name="app_name">My1</string>
+	<string name="boyshoes">男鞋</string>
+	<string name="index">主页</string>
+	<string name="search">查询</string>
+	<string name="more">更多</string>
+	<string name="record">记录</string>
+	<string name="advice">建议</string>
+	<string name="exit">退出</string>
+	<string name="title_myletao_type">分类</string>
+	<string name="searchbar_hint">商品货号\u0020\u0020名称\u0020\u0020品牌\u0020\u0020款式
+	</string>
+	<string name="commodity_detail_listing_date">上市日期:</string>
+	<string name="commodity_detail_favorite">收藏</string>
+	<string name="commodity_detail_letao_price">乐淘价格:</string>
+	<string name="commodity_detail_counter_price">专柜价格:</string>
+	<string name="commodity_detail_colors">颜色:</string>
+	<string name="commodity_detail_man_woman">男女款:</string>
+	<string name="commodity_detail_model">货号:</string>
+	<string name="commodity_detail_textures">材质:</string>
+	<string name="commodity_detail_style">款式:</string>
+	<string name="commodity_detail_message">商品信息</string>
+	<string name="commodity_detail_input_cart">加入购物车</string>
+	<string name="spikeare_detail_tobuy">立即购买</string>
+	<string name="commoditysort_hot_str">热销</string>
+	<string name="commodity_detail_size">尺码:</string>
+	<string name="commoditysort_price_str">价格</string>
+	<string name="commoditysort_new_str">新品</string>
+</resources>
